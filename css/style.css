@@ -1,0 +1,27 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif;
+}
+a{text-decoration: none;}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.fm {font-family: "Merienda", cursive;font-optical-sizing: auto;font-weight: 500;font-style: normal;}
+.fp {font-family: "Poppins", sans-serif;font-weight: 300;font-style: normal;}
+.bg-blue {background-color: #35475e;}.bg-blue:hover {background-color: #35275e;}
+.c-blue {color: #35475e;}
+.custom-bg {background-color: #2ec1ac; border: 1px solid #2ec1ac;}
+.custom-bg:hover {background-color: #279e8c; border: 1px solid #279e8c}
+.availablity-form {margin-top: -50px;z-index: 1;position: relative; margin-top: -50px;}
+.h-line {width: 150px; height: 1.5px; margin: 0 auto}
+
+
+/*Responsive*/
+@media screen and (max-width: 575px) {
+	.availablity-form {margin-top: 25px; padding: 0px 30px;}	
+}
